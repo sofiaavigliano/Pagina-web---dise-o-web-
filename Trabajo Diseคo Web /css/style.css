@@ -1,0 +1,640 @@
+ .index{
+    background: rgb(222,220,237);
+    background: linear-gradient(90deg, rgba(222,220,237,0.47942927170868344) 0%, rgba(193,236,249,0.4822303921568627) 47%, rgba(189,206,218,0.44861694677871145) 100%);
+
+}
+ /*--------------
+    NAVEGADOR
+----------------*/
+@media (max-width:600px){
+    
+
+    .box-5{
+        width: 90%;
+    } 
+}
+nav{
+    background-color: rgba(103, 145, 184, 0.555);
+    display: flex;
+    
+}
+
+#logo{
+    margin-left: -60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+ }
+
+.links  {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    
+    
+}
+.uno{
+    font-family: 'Kanit';
+    font-size: 20px;
+    :link{
+        color: black;
+        text-decoration: none;
+        
+    }
+}
+.dos{
+    font-family: 'Kanit';
+    font-size: 20px;
+    :link{
+        color: black;
+        text-decoration: none;
+    }
+}
+.tres{
+    font-family: 'Kanit';
+    font-size: 20px;
+    :link{
+        color: black;
+        text-decoration: none;
+    }
+}
+.cuatro{
+    font-family: 'Kanit';
+    font-size: 20px;
+    :link{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+nav div {
+    justify-content:space-around;
+    align-items: center;
+    margin-right:0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    
+     
+}
+nav div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    
+}
+.botonnav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-family: 'Kanit';
+    font-size:17px;
+	text-decoration:none;
+    background-color:#4497c7;
+	border-radius:42px;
+	border:1px solid #4497c7;
+	cursor:pointer;
+    padding: 7px;
+
+}
+
+
+ /*----------------
+    FIN NAVEGADOR
+------------------*/
+/*---------------------
+    MAIN INDEX parte1
+-----------------------*/
+#Cajatexto{
+    margin-top: 170px;
+    text-align: center;
+    margin-bottom: -10cm;
+    
+}
+.parte1{
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+
+/*---------------------
+    FIN MAIN INDEX parte1
+-----------------------*/
+/*-------------------
+    CARROUSEL
+--------------------*/
+
+.carrusel-personalizado {
+    margin-top: 1cm; /* Margen superior */
+  }
+  
+  .contenido-slide {
+    padding: 30px; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido al centro */
+    color: #0e0d0d; /* Color del texto */
+    font-family: 'Kanit';
+  }
+  
+  .contenido-slide h2 {
+    font-size: 2.5rem; /* Tamaño de fuente para los títulos */
+    font-family: 'Kanit';
+    font-weight: 300;
+  }
+  
+  .contenido-slide p {
+    font-size: 1.5rem; /* Tamaño de fuente para los párrafos */
+    margin-bottom: 0; /* Eliminar margen inferior */
+    font-family: 'Kanit';
+    font-weight: 300;
+  }
+  
+  .carousel-item.active .contenido-slide {
+    background-color: rgba(67, 87, 129, 0.705); /* Fondo de la diapositiva activa */
+  }
+  
+  .carousel-item:nth-child(2) .contenido-slide {
+    background-color: rgba(30, 51, 97, 0.705); /* Fondo de la segunda diapositiva */
+  }
+  
+  .carousel-item:last-child .contenido-slide {
+    background-color:  rgba(127, 144, 182, 0.705); /* Fondo de la última diapositiva */
+  }
+/*-------------------
+    FIN CARROUSEL
+----------------------*/
+/*---------------------
+    MAIN INDEX parte2
+-----------------------*/
+
+#cajafoto1{
+    background-color: rgba(147, 160, 202, 0.404);
+    border-radius: 27px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:center ;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 2%; 
+    
+}
+.tituloP2{
+    font-family: 'kanit';
+
+}
+.parrafoP2{
+    font-family: 'kanit';
+    font-weight: 300;
+}
+
+#cajafoto2{
+    background-color: rgba(147, 160, 202, 0.404);
+    border-radius: 27px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 2%;
+    
+    
+}
+#cajaparte2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenesparte21{
+    width: 70%;
+    align-self: center;
+    border-radius: 27px;
+
+   
+    
+}
+.imagenesparte22{
+    width: 70%;
+    margin-top: 5%;
+    align-self: center;
+    border-radius: 27px;
+
+
+}
+/*-----------------
+    FIN PARTE 2
+-----------------*/
+/*-----------------
+     PARTE 3
+-----------------*/
+.boton2{
+    background-color: rgba(103, 145, 184, 0.555);
+    box-shadow: #333;
+	border-radius:42px;
+	border:1px solid  rgba(85, 140, 192, 0.555);
+	cursor:pointer;
+	padding:20px;
+	text-decoration:none;
+    text-align: center;
+    
+}
+.parte3text{
+    font-family: 'Kanit';
+   
+}
+.boton2 button{
+    background-color: rgba(85, 140, 192, 0.555);
+	border-radius:42px;
+	border:1px solid rgba(49, 81, 110, 0.555);
+	padding:8px 8px;
+	text-align: center;
+    box-shadow: #0e0d0d;
+
+}
+.boton2 button a{
+    color: black;
+    cursor:pointer;
+	font-family: 'Kanit';
+    text-decoration:none;
+    text-transform: uppercase;
+ 
+}
+.boton2 button :hover{
+    color:rgba(49, 80, 110, 0.685);
+}
+
+/*-----------------
+    Pastillas
+------------------*/
+#titulobanco{
+    text-align: left;
+    font-family: 'Kanit';
+    font-weight: 370;
+}
+.card{
+    margin: 45px;
+    align-items: center;
+
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ecf0f133;
+    
+}
+.container {
+    align-items: center;
+    text-align: center;
+}
+.textpast{
+    font-family: 'Kanit';
+}
+/*-----------------
+    Final Pastillas
+------------------*/
+/*--------------
+    PRODUCTOS
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+*{
+
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+.contenido{
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mostrador .fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mostrador .fila .item{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+.mostrador .fila .item:hover{
+    background-color: #e6e6e6;
+    background-color: #94cfbb8e;
+}
+
+.mostrador .fila .item .precio{
+    color: #2b628f;
+    font-weight: bold;
+    font-size: 20px;
+}
+#botoncomprado{
+    background-color: rgba(85, 140, 192, 0.555);
+	border-radius:42px;
+	border:1px solid rgba(49, 81, 110, 0.555);
+	cursor:pointer;
+	font-family: 'Kanit';
+	font-size:17px;
+	text-decoration:none;
+    text-align: center;
+    justify-content: center;
+	
+}
+#botcompra{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+/*--------------
+    FIN PRODUCTOS
+----------------*/
+/*--------------
+    CLIENTES
+----------------*/
+#customCarousel {
+    padding:15px;
+  }
+  .testimonial-carousel {
+    background-color: #4f97c788;
+    text-align: center;
+  }
+  
+  .testimonial-carousel {
+    padding: 40px 0;
+    background-color: #90b4cc88;
+    text-align: center;
+  }
+  
+  .testimonial-carousel h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slide-content {
+    background-color: #226a995e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000000;
+  }
+  
+  .slide-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #050505;
+  }
+  
+  .slide-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .slide-image img {
+    width: 65%;
+    height: 65%;
+    border-radius: 10px;
+    margin:0
+}
+/*--------------
+    FIN CLIENTES
+----------------*/
+/*-------------
+    FOOTER
+--------------*/
+footer{
+    background-color: rgba(103, 145, 184, 0.555);
+    padding: 30px;
+    font-family: 'Kanit';
+}
+
+#icono{
+    width: 25px;
+    height: 25px;
+    color: #000000;
+    
+}
+.redes{
+    display: flex;
+    margin: 5px;
+}
+.redes a{
+    justify-content: space-between;
+    text-decoration: none;
+}
+.redes a i{
+    justify-content: space-between;
+}
+
+/*----------------
+    FIN FOOTER
+------------------*/
+/*-------------
+    INFO
+--------------*/
+.maininfo{
+    background: rgb(81,78,120);
+    background: linear-gradient(90deg, rgba(81,78,120,1) 0%, rgba(70,121,136,0.7847514005602241) 47%, rgba(87,101,111,0.9248074229691877) 100%);
+
+}
+
+/*----------Informacion sobre nosotros*/
+#aa{
+
+    background-color: rgba(172, 205, 247, 0.404);
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 650px;
+    
+    
+    
+}
+#aa p{
+    text-align: left;
+}
+
+.texto{
+    margin: 50px;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.texto_1{
+    margin: 50px;
+    color: #000000;
+}
+/*----------Informacion sobre nosotros*/
+/*-----------tres columnas esta en mas o guia*/
+.p2{
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Kanit';
+   
+}
+.p1{
+    font-family: 'Kanit';
+    
+}
+#trescolumnas{
+    background-color: rgba(172, 205, 247, 0.404);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 2%;
+   
+
+    
+}
+@media (max-width:600px) {
+    .mainmas{
+        margin: 0px 10px 10px 10px;
+    }
+    
+}
+/*-----------tres columnas esta en mas o guia*/
+
+/*-----------
+FORMULARIO
+------------*/
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form {
+    background-color: #a9b5c7;
+    
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 3em;
+    border: 1px solid #ccc;
+    border-radius: 4em;
+    
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    
+  }
+.formm{
+    color: black;
+    
+	font-family: 'Kanit';
+	font-size:17px;
+    text-decoration:none;
+}
+#name{
+    background-color: #cccccc9d;
+    border-color: #0e0d0d;
+    
+}
+#msg{
+    background-color: #cccccc9d;
+    border-color: #0e0d0d;
+}
+#mail{
+    background-color: #cccccc9d;
+    border-color: #0e0d0d;
+}
+.botform{
+    background-color: rgba(103, 145, 184, 0.555);
+    box-shadow: #333;
+	border-radius:42px;
+	border:1px solid  rgba(85, 140, 192, 0.555);
+	cursor:pointer;
+	padding:20px;
+	text-decoration: dotted;
+}
+/*-------------
+    FIN INFO
+--------------*/
+/*-------------
+    GUIA
+--------------*/
+.bodyguia{
+    background: rgb(108,97,242);
+    background: linear-gradient(90deg, rgba(108,97,242,0.5382528011204482) 0%, rgba(72,185,218,0.44021358543417366) 47%, rgba(101,158,200,0.5018382352941176) 100%);
+
+}
+.guia{
+    margin: 50px 0px 50px 0px;
+}
+
+.cajapasos{
+    
+    background-color: #87a5cf;
+    margin: 47px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+.textopasos{
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family:'Kanit';
+    
+}
+    
+.cajapasos1{
+    
+    background-color: #83b5ff;
+    margin: 47px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.textopasos1{
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family:'Kanit';
+    
+}
+.cajapasos1 button{
+    background-color:rgb(93, 108, 190);
+	border-radius:42px;
+	border:1px solid rgb(162, 176, 253);
+	padding:8px 8px;
+	text-align: center;
+      
+
+}
+.cajapasos1 button a{
+    color: black;
+    cursor:pointer;
+	font-family: 'Kanit';
+	font-size:17px;
+    text-decoration:none;
+ 
+}
+#imgpasos{
+    border-radius: 10px;
+}
